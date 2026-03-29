@@ -1,0 +1,27 @@
+# --- e2 studio / GCC Build Artifacts ---
+Debug/
+Release/
+*.elf
+*.srec
+*.map
+*.o
+*.d
+*.su
+
+# --- Local IDE Settings (User Specific) ---
+.settings/
+.gdbinit
+*.jlink
+*.pdm
+*.launch
+
+# --- Synergy Generated Files ---
+# Optional: Many teams exclude these because 'Generate Project Content' 
+# recreates them from the configuration.xml
+synergy_gen/
+synergy/ssp/src/
+synergy/ssp/inc/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
